@@ -88,19 +88,42 @@ Built in response to the UPI merchant pricing framework (September 2026), UPI Fl
 
 ---
 
+## 🏗️ Architecture
+
+```text
+              UPI Flow
+                 │
+       ┌─────────┼─────────┐
+       ↓         ↓         ↓
+   Session     QR       History
+   Manager   Generator   Manager
+       │         │         │
+       └─────────┼─────────┘
+                 ↓
+          Local Persistence
+                 │
+          PWA / Installed App
+```
+
+**State & Data Model:**
+The application operates entirely on the client side using a serverless model.
+- **Session Manager:** Orchestrates the split payment workflow. It calculates remaining balances, handles the round-robin logic for multiple UPI IDs, and maintains the state of the active transaction until all chunks are marked as received.
+- **QR Generator:** Dynamically creates zero-dependency SVG payloads embedding exact payment amounts and transaction IDs, ensuring merchants never manually type amounts.
+- **Local Persistence:** All state—merchant profiles, UPI IDs, past sessions, and settings—is synced synchronously to local storage. No data ever leaves the device.
+
+---
+
 ## 🛠️ Technology
 
-| Layer | Technology |
-|-------|-----------|
-| UI Framework | React 19 + TypeScript |
-| Build Tool | Vite 8 |
-| Styling | Tailwind CSS v4 + CSS Custom Properties |
-| QR Generation | qrcode.react |
-| QR Scanning | qr-scanner |
-| Local Storage | localStorage (via custom hook) |
-| Routing | React Router DOM v7 (HashRouter) |
-| Icons | Lucide React |
-| Font | Outfit (Google Fonts) |
+| Layer | Technology | Why |
+|-------|-----------|-----|
+| UI Framework | React 19 + TypeScript | Component-based application UI with strict type safety |
+| PWA | Vite PWA / Manifest | Installable and offline-capable mobile experience |
+| Storage | Local persistence | Device-local transaction/session data without cloud dependency |
+| QR | qrcode.react | Client-side UPI payment payload generation |
+| State | React Context + Hooks | Session/payment workflow state management |
+| Styling | Tailwind CSS v4 | Rapid design system implementation with tokens |
+| Deployment | GitHub Pages | Static application delivery and hosting |
 
 ---
 
