@@ -18,6 +18,30 @@
 
 ---
 
+## 📸 App Screenshots
+
+<div align="center">
+
+| Onboarding | UPI Verified | Home / Amount |
+|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/onboard.png" width="200" alt="Onboarding" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/onboard-verify.png" width="200" alt="UPI Verified" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/amount-keypad.png" width="200" alt="Amount Entry" /> |
+
+| Split Options | Confirm Split | Session Complete |
+|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/amount-splits.png" width="200" alt="Split Options" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/amount-splits-verify.png" width="200" alt="Confirm Split" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/amount-complete.png" width="200" alt="Session Complete" /> |
+
+| Payment History | Settings (Dark) | Settings (Light) |
+|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/pay-history.png" width="200" alt="Payment History" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/settings.png" width="200" alt="Settings Dark" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/light-theme-settings.png" width="200" alt="Settings Light" /> |
+
+| How It Works |
+|:---:|
+| <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/work-guide.png" width="320" alt="How UPI Flow Works" /> |
+
+</div>
+
+---
+
 > ⚠️ **Repository Notice**  
 > **This is a public-facing repository used exclusively for deploying the compiled application.**  
 > The source code and intellectual property for **UPI Flow** are maintained in a separate private repository. For inquiries regarding the source code or commercial licensing, please contact the author.
