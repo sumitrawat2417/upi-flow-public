@@ -128,6 +128,14 @@ Once installed, the app launches in full-screen portrait mode, just like a nativ
 
 ---
 
+## ⚖️ License
+
+**© 2026 Sumit Rawat (Forbit) / ManSula DivLabs. All rights reserved.**
+
+This is a proprietary application. No license is granted to view, modify, distribute, or use the source code or assets. The compiled application is published here for demonstration and end-user access only.
+
+---
+
 <div align="center">
   <p><em>Built by Forbit (Sumit Rawat) · A ManSula DivLabs product</em></p>
   <p><sub>Not affiliated with NPCI, any UPI operator, or bank.</sub></p>
