@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/assets/logo-BXEjvWjO.svg" width="72" height="72" alt="UPI Flow Logo" />
+  <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/icon-512.png" width="90" height="90" alt="UPI Flow Logo" />
   <h1>UPI Flow</h1>
   <p><strong>A lightning-fast, offline-first Progressive Web App for smart UPI payment management.</strong></p>
 
