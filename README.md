@@ -16,27 +16,11 @@
   </p>
 </div>
 
----
-
-## 📸 App Screenshots
-
 <div align="center">
 
-| Onboarding | UPI Verified | Home / Amount |
+| Home / Amount | Confirm Split | Session Complete |
 |:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/onboard.png" width="200" alt="Onboarding" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/onboard-verify.png" width="200" alt="UPI Verified" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/amount-keypad.png" width="200" alt="Amount Entry" /> |
-
-| Split Options | Confirm Split | Session Complete |
-|:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/amount-splits.png" width="200" alt="Split Options" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/amount-splits-verify.png" width="200" alt="Confirm Split" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/amount-complete.png" width="200" alt="Session Complete" /> |
-
-| Payment History | Settings (Dark) | Settings (Light) |
-|:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/pay-history.png" width="200" alt="Payment History" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/settings.png" width="200" alt="Settings Dark" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/light-theme-settings.png" width="200" alt="Settings Light" /> |
-
-| How It Works |
-|:---:|
-| <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/work-guide.png" width="320" alt="How UPI Flow Works" /> |
+| <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/amount-keypad.png" width="220" alt="Amount Entry" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/amount-splits-verify.png" width="220" alt="Confirm Split" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/amount-complete.png" width="220" alt="Session Complete" /> |
 
 </div>
 
@@ -85,6 +69,22 @@ Built in response to the UPI merchant pricing framework (September 2026), UPI Fl
 
 ### Legal & Compliance
 - 📄 **In-App Legal Pages** — Privacy Policy (DPDPA 2023-aligned), Terms of Use, and Help & FAQ all built into the app.
+
+---
+
+## 📸 More Screenshots
+
+<div align="center">
+
+| Onboarding | UPI Verified | Split Options |
+|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/onboard.png" width="200" alt="Onboarding" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/onboard-verify.png" width="200" alt="UPI Verified" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/amount-splits.png" width="200" alt="Split Options" /> |
+
+| Payment History | Settings | How It Works |
+|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/pay-history.png" width="200" alt="Payment History" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/settings.png" width="200" alt="Settings" /> | <img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/work-guide.png" width="200" alt="How UPI Flow Works" /> |
+
+</div>
 
 ---
 
