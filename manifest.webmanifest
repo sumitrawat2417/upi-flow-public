@@ -1,0 +1,29 @@
+{
+  "name": "UPI Flow",
+  "short_name": "UPI Flow",
+  "description": "Smart offline UPI QR code generator for businesses. Split payments, manage sessions, all on-device.",
+  "start_url": "/upi-flow-public/",
+  "scope": "/upi-flow-public/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#1A1A2E",
+  "theme_color": "#E8435A",
+  "categories": ["finance", "business", "utilities"],
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "/upi-flow-public/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/upi-flow-public/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": []
+}
