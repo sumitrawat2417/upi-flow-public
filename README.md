@@ -10,7 +10,8 @@
   <p>
     <img src="https://img.shields.io/badge/PWA-Ready-E8435A?style=flat-square" alt="PWA Ready" />
     <img src="https://img.shields.io/badge/Offline--First-Yes-22C55E?style=flat-square" alt="Offline First" />
-    <img src="https://img.shields.io/badge/No%20Backend-Local%20Only-1A1A2E?style=flat-square" alt="No Backend" />
+    <img src="https://img.shields.io/badge/Architecture-Serverless-6366F1?style=flat-square" alt="Serverless" />
+    <img src="https://img.shields.io/badge/Privacy-Local--First-0EA5E9?style=flat-square" alt="Privacy First" />
     <img src="https://img.shields.io/badge/Made%20in-India-FF9933?style=flat-square" alt="Made in India" />
   </p>
 </div>
@@ -25,7 +26,7 @@
 
 ## 📖 What Is UPI Flow?
 
-**UPI Flow** is a sleek, local-first merchant utility for managing UPI payments without any backend, account signup, or internet dependency after install.
+**UPI Flow** is a sleek, privacy-first merchant utility built on a **serverless, client-side architecture** — all logic, storage, and QR generation happen entirely on the merchant's device, with no dependency on external servers or accounts.
 
 Built in response to the UPI merchant pricing framework (September 2026), UPI Flow helps merchants split large payment totals into smaller sequential amounts — each with its own QR code — and guides them through a clean, counter-style confirmation workflow.
 
@@ -54,7 +55,7 @@ Built in response to the UPI merchant pricing framework (September 2026), UPI Fl
 - ⚙️ **Configurable Threshold** — The ₹2,000 split threshold is adjustable in Settings. Future-proof against policy changes.
 
 ### Privacy & Data
-- 🔒 **100% Local** — All data (profiles, sessions, history) stays on the device. No servers, no accounts, no cloud.
+- 🔒 **Privacy-First Architecture** — All data (profiles, sessions, history) lives entirely on the device. Serverless by design — no cloud, no accounts, no tracking.
 - 📊 **Export to CSV** — Export full payment history with session-level and individual QR-level breakdowns for accounting.
 - 🗑️ **Clear & Reset** — Clear history or reset all data with proper confirmation safeguards (type "RESET" to confirm).
 
