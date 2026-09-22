@@ -90,19 +90,17 @@ Built in response to the UPI merchant pricing framework (September 2026), UPI Fl
 
 ## 🏗️ Architecture
 
-```text
-              UPI Flow
-                 │
-       ┌─────────┼─────────┐
-       ↓         ↓         ↓
-   Session     QR       History
-   Manager   Generator   Manager
-       │         │         │
-       └─────────┼─────────┘
-                 ↓
-          Local Persistence
-                 │
-          PWA / Installed App
+```mermaid
+graph TD
+    App[UPI Flow] --> Session[Session Manager]
+    App --> QR[QR Generator]
+    App --> History[History Manager]
+    
+    Session --> DB[(Local Persistence)]
+    QR --> DB
+    History --> DB
+    
+    DB --> PWA([PWA / Installed App])
 ```
 
 **State & Data Model:**
