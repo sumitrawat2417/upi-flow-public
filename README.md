@@ -65,6 +65,7 @@ Built in response to the UPI merchant pricing framework (September 2026), UPI Fl
 ### Privacy & Data
 - 🔒 **Privacy-First Architecture** — All data (profiles, sessions, history) lives entirely on the device. Serverless by design — no cloud, no accounts, no tracking.
 - 📊 **Export to CSV** — Export full payment history with session-level and individual QR-level breakdowns for accounting.
+- 🖨️ **Export to PDF** — Generate a beautifully designed, print-ready payment report. Includes a summary header (total sessions, completion rate, total billed, total received), merchant details card, average per session, collection rate, and a full transaction table with per-payment split chips — all generated locally in the browser, zero server involved.
 - 🗑️ **Clear & Reset** — Clear history or reset all data with proper confirmation safeguards (type "RESET" to confirm).
 
 ### Legal & Compliance
