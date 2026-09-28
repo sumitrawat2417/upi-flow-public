@@ -89,6 +89,23 @@ Built in response to the UPI merchant pricing framework (September 2026), UPI Fl
 
 ---
 
+## 🖨️ PDF Export Report
+
+Export your full payment history as a beautifully designed, print-ready PDF — generated entirely on-device, no server involved.
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/sumitrawat2417/upi-flow-public/main/screenshots/pdf-report.jpg" width="720" alt="UPI Flow PDF Report" />
+</div>
+
+**The report includes:**
+- **Hero summary banner** — total sessions, success rate, total billed & received
+- **Merchant details** — business name, all UPI IDs
+- **Report analytics** — avg. per session, collection rate
+- **Full transaction table** — session ID, date/time, split count, received vs. pending, status badge, and per-payment chips
+- **Branded footer** — ManSula DivLabs · "Device-generated · No server involved"
+
+---
+
 ## 🏗️ Architecture
 
 ```mermaid
