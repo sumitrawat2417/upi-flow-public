@@ -45,8 +45,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     .hero::after{content:'';position:absolute;bottom:-60px;right:80px;width:160px;height:160px;background:rgba(255,255,255,.04);border-radius:50%}
     .hero-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:24px;position:relative;z-index:1}
     .hero-brand{display:flex;align-items:center;gap:14px}
-    .logo-box{width:52px;height:52px;background:linear-gradient(135deg,#ff6b6b,#ff8e53);border-radius:14px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(255,107,107,.35);flex-shrink:0}
-    .logo-box svg{width:26px;height:26px;fill:white}
+    .logo-box{width:52px;height:52px;background:white;border-radius:14px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(255,255,255,.25);flex-shrink:0;padding:10px}
     .hero-title{font-size:26px;font-weight:900;letter-spacing:-.5px;line-height:1}
     .hero-subtitle{font-size:12px;font-weight:500;color:rgba(255,255,255,.65);margin-top:4px}
     .hero-meta{text-align:right;font-size:11px;color:rgba(255,255,255,.6);line-height:1.9}
@@ -99,7 +98,13 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     <div class="hero-top">
       <div class="hero-brand">
         <div class="logo-box">
-          <svg viewBox="0 0 24 24"><path d="M4 4h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 10h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 16h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4z"/></svg>
+          <svg width="100%" height="100%" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="7" height="7" rx="1.5" fill="#E8435A" />
+            <rect x="11" y="2" width="7" height="7" rx="1.5" fill="#E8435A" fill-opacity="0.6" />
+            <rect x="2" y="11" width="7" height="7" rx="1.5" fill="#E8435A" fill-opacity="0.6" />
+            <rect x="13" y="13" width="3" height="3" rx="0.75" fill="#E8435A" />
+            <rect x="11" y="11" width="3" height="3" rx="0.75" fill="#E8435A" fill-opacity="0.4" />
+          </svg>
         </div>
         <div>
           <div class="hero-title">UPI Flow</div>
