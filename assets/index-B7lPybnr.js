@@ -45,7 +45,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     .hero::after{content:'';position:absolute;bottom:-60px;right:80px;width:160px;height:160px;background:rgba(255,255,255,.04);border-radius:50%}
     .hero-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:24px;position:relative;z-index:1}
     .hero-brand{display:flex;align-items:center;gap:14px}
-    .logo-box{width:52px;height:52px;background:white;border-radius:14px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(255,255,255,.25);flex-shrink:0;padding:10px}
+    .logo-box{width:52px;height:52px;background:transparent;display:flex;align-items:center;justify-content:center;flex-shrink:0;padding:10px}
     .hero-title{font-size:26px;font-weight:900;letter-spacing:-.5px;line-height:1}
     .hero-subtitle{font-size:12px;font-weight:500;color:rgba(255,255,255,.65);margin-top:4px}
     .hero-meta{text-align:right;font-size:11px;color:rgba(255,255,255,.6);line-height:1.9}
